@@ -1,0 +1,19 @@
+/* Main colors */
+$color-koios-blue: #2f12dc;
+$color-koios-pink: #ff0bac;
+$color-text: #242424;
+
+/* Secondairy colors */
+
+/* Gradients */
+$gradient-koios: linear-gradient(to right, $color-koios-pink, $color-koios-blue);
+
+/* Predefined breakpoints */
+$mobile: 320px;
+$tablet: 480px;
+$desktop: 769px;
+
+/* Fonts */
+$font-family-headings: Righteous, Arial, sans-serif;
+$font-family-base: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial,
+  sans-serif;

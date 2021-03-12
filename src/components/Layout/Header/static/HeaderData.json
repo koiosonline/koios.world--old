@@ -1,0 +1,14 @@
+{
+  "nav": [
+    {
+      "title": "Info",
+      "linkTo": "https://wiki.koios.online/",
+      "openInNewTab": true
+    },
+    {
+      "title": "Community",
+      "linkTo": "https://discord.com/invite/SBpZhEDHFR",
+      "openInNewTab": true
+    }
+  ]
+}

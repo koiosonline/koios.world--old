@@ -1,0 +1,101 @@
+.home {
+  padding: 15px;
+
+  .introduction {
+    background-color: #fafafa;
+    margin: 0 auto;
+    border-radius: 0 0 30px 30px;
+    padding: 20px;
+
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0 50px;
+    }
+
+    &__koios-icon {
+      margin: 10px auto 25px;
+      width: 50px;
+      height: 50px;
+    }
+
+    &__headline {
+      max-width: 300px;
+      text-align: center;
+      margin: 0 auto;
+      color: $color-text;
+    }
+
+    &__btn-wrap {
+      // remove this when single + div
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 80px;
+    }
+
+    &__link {
+      display: block;
+      // margin: 80px auto 0; ENABLE as soon as we go back to single btn
+      margin: 0 10px 0; // remove this as soon as we go back to single btn
+      min-width: 173px; // remove this as soon as we go back to single btn
+      text-align: center;
+      padding: 5px 20px;
+      box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.15);
+
+      &:last-child { // remove this as soon as we go back to single btn
+        margin-top: 15px;
+
+        @include for-size(459px) {
+          &:last-child {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
+
+      @include for-size($desktop) {
+        justify-content: flex-start;
+      }
+
+      &__list {
+        display: flex;
+        background-color: $color-koios-blue;
+        border-radius: 5px;
+
+        @include for-size($desktop) {
+          flex-direction: column;
+        }
+      }
+
+      &__list-item {
+        width: 27px;
+        height: 27px;
+        padding: 5px;
+
+        path {
+          fill: #fff;
+        }
+      }
+    }
+
+    &__message {
+      text-align: center;
+      color: $color-text;
+
+      &::after {
+        content: "";
+        height: 3px;
+        background: $gradient-koios;
+        display: block;
+        margin: 5px auto 0;
+        width: 20%;
+      }
+    }
+  }
+}

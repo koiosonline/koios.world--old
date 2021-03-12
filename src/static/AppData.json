@@ -1,0 +1,25 @@
+{
+  "headline": "Community based, University accelerated learning infrastructure",
+  "social": [
+    {
+      "icon": "YouTube",
+      "linkTo": "https://www.youtube.com/channel/UCMyWjw6D7eq6swaOljtwJdw",
+      "openInNewTab": true
+    },
+    {
+      "icon": "Discord",
+      "linkTo": "https://discord.com/invite/SBpZhEDHFR",
+      "openInNewTab": true
+    },
+    {
+      "icon": "Twitter",
+      "linkTo": "https://twitter.com/KoiosTweets",
+      "openInNewTab": true
+    },
+    {
+      "icon": "GitHub",
+      "linkTo": "https://github.com/koiosonline",
+      "openInNewTab": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.btn {
+    border: none;
+    border-radius: 10px;
+	font-size: 0.875em;
+
+    &--koios-gradient {
+        background: $gradient-koios;
+        color: #fff;
+    }
+}
