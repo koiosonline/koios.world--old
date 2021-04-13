@@ -17,16 +17,34 @@ export const App = () => {
           </div>
           <h1 className="introduction__headline">{AppData.headline}</h1>
           <div className="introduction__btn-wrap">
-            <a className="introduction__link btn btn--koios-gradient" href="https://www.koios.online/blockchainminor">
+            <a
+              className="introduction__link btn btn--koios-gradient"
+              href="https://www.koios.online/blockchainminor"
+            >
               Blockchain technology
             </a>
-            <a className="introduction__link btn btn--koios-gradient" href="https://www.koios.online/tdfa">
+            <a
+              className="introduction__link btn btn--koios-gradient"
+              href="https://www.koios.online/tdfa"
+            >
               Trading & investing
             </a>
           </div>
           {/* <a className="introduction__link btn btn--koios-gradient" href="/">
               Go to courses
             </a> Enable this and remove div introduction__btn-wrap as soon as single btn*/}
+        </div>
+
+        <div className="this-week">
+          <h2 className="this-week__title">This week</h2>
+          <a
+            className="this-week__button introduction__link btn btn--koios-pink"
+            href="https://cloudflare-ipfs.com/ipfs/QmaffotE718GXF6gtHt1kCiDYQ3TCPxR94Uv4HCjcxajF6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Blockchain week timetable
+          </a>
         </div>
 
         <div className="social">

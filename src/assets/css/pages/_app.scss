@@ -54,6 +54,23 @@
       }
     }
 
+    .this-week {
+      margin-bottom: 25px;
+
+      &__title{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+
+      &__button {
+        max-width: 200px;
+        margin: 0 auto;
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+    }
+
     .social {
       display: flex;
       justify-content: center;
