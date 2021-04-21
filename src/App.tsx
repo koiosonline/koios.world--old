@@ -39,7 +39,7 @@ export const App = () => {
           <h2 className="this-week__title">This week</h2>
           <a
             className="this-week__button introduction__link btn btn--koios-pink"
-            href="https://cloudflare-ipfs.com/ipfs/QmaffotE718GXF6gtHt1kCiDYQ3TCPxR94Uv4HCjcxajF6"
+            href="https://cloudflare-ipfs.com/ipfs/QmUFmDaKRKGCJcZ2CAQd1jfSkBEi9siDnMCf37yCDKAD9r"
             target="_blank"
             rel="noreferrer"
           >
